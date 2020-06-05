@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/improve">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="How you rate this app?"
+        android:textColor="#FFF5A906"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp" />
+
+    <TextView
+        android:id="@+id/tvRateCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163dp"
+        android:text="Your Rating :"
+        android:textColor="#FFF5A906"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRateMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="2dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/wp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/male" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Abir Bhadra(Android App Development, Web Development)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text='"GTE is the best place for a student to study. Nice classroom with modern equipments. I have got the best all round guidance ever from here. The best teacher. Very friendly but also strict at times. Whenever I faced any problem, I got the best help and suggestions from him.\nSimply prolific."'
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/female" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Atreyee Sen(Code Expert)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="I went here for a training here. The classrooms are equipped with modern technologies. The faculty members are extremely patient, cooperative, gives the best guidance and teaches uniquely. Teachers are friendly and also strict at the same time. They prepares us so well for placements and jobs. It's one of the best training institution in Kolkata. I had an amazing experience here. ."
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/female" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:gravity="center"
+                            android:text="Sneha Modak(Code Expert)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="GTE is one of the best educational institute that helps in preparing yourself for the jobs and placements. Small batches, where attention is given to each and every student. Method of teaching is really good by the experienced faculty. Lastly ,GTE is such a place where we can blindly rely to be successfully placed in life by following the guidelines provided by the institute."
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/female" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:gravity="center"
+                            android:text="Doyel Debnath(Code Expert)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="GTE Garfa is the best training institute in Kolkata. All the faculty members are good and their teaching technique is unique. Also the study materials, provided by them are really good to clear the concept. This training centre has the student friendly environment which is helpful for learning. I will surely recommend this institute to others to learn Computer related concepts in depth."
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/male" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Aniket Kirtania(Python Programming)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="Rated training center in Jadavpur. The coaching is provided by the most experienced teachers. A1 lab , A1 classroom, well furnished classrooms and also the learning is practical based which is more important then theory based learning. In one word it is amazing😇😇😇👌👌👌"
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView16"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/male" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Sandipon Mondal(Code Expert)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="The infrastructure of GTE is very good and well decorated. Faculty is well and very helpful .Teachers also cooperate with all the students to do our best.In one word , i think that it is one of the best education institute in Kolkata in where you can solve your all questions and doubts with the help of your teachers and can create a bright future"
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView18"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/female" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Lovely Banik(Semester Course, Placed at Cognizant)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="The infrastructure of GTE is very good and well decorated. Faculty is well and very helpful .Teachers also cooperate with all the students to do our best.In one word , i think that it is one of the best education institute in Kolkata in where you can solve your all questions and doubts with the help of your teachers and can create a bright future"
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView20"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/female" />
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Priyanka Dutta"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView50"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="GTE is one of the best educational center with proper infrastructure and an extraordinary faculty. All the teachers are very much helpful and cooperative."
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/female" />
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Reeja Das(Machine Learning with Python)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="Excelent education center in jadavpur. Best place to build up carrier. Faculties are very much experienced and take care individual students..... Best education center is GTE."
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView29"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/user" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="0dp"
+                            android:gravity="center"
+                            android:text="Arindam Chowdhury(Python and Django Training)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="A place with good infrastructure where class teachings are thorough and intricately detailed as per the student's requirements along with a good working/studying environment."
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView28"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/male" />
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Soham Nag(Python and Django Training)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView58"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="Teaching is really good from and is explained everything from scratch, nice infrastructure, overall was a good experience."
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    app:cardBackgroundColor="#FFDAD39B">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView26"
+                            android:layout_width="94dp"
+                            android:layout_height="94dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/male" />
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Subhajit Manna(Code Expert)"
+                            android:textColor="#FF031632" />
+
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="2dp"
+                            android:text="Exellent education center in kolkata.Provides many courses.Individual care is taken. Best place to build up ur career"
+                            android:textColor="#FF031632"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

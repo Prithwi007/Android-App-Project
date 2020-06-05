@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GlobalTalentEducation</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Paragraph">In todays world computer is the core want of everythng. Hence, learning computer gives one a betterp oportunity for future. We are here to provide you the right way to learn computer in a very easy and friendly method. Computer application/science apparently may be hard to understand and grasp. But if it is handled carefully, it shall become the easiest and most interesting subject to deal with. All needed is practice and thorough understanding of the topics. You shall find all these benefits and everything that is needed, here, in this institution.\n We provide you the best teaching facility with all care and guidance. The process of learning here is enough systematic and comfortable for all students. We provide : Practical implementation, Test for progress, Adequate suppliments, Notes for easy understanding and interpretation, Friendly environment to learn freely, Coaching classes to maintain the competition among them, Reliable teacher-student relationship, Extra classes, Question solving. If you want yourself with real knowledge in computer,then this is the right place for you.</string>
+</resources>

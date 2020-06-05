@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".NextActivity"
+    tools:showIn="@layout/app_bar_next">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC9DFFA"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="205dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/global" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="180dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/global2" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/global3" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="234dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/globall" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/global4" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/global5" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="224dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/global6" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/star_big_on" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="0dp"
+        android:text=" DashBoard"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>
